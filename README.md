@@ -1,4 +1,3 @@
-````markdown
 <p align="center">
   <h2 align="center">ColMetric3D: Scale-Consistent Monocular Colonoscopy 3D Reconstruction via Metric-Scale Expert Calibration</h2>
   <h3 align="center">IEEE Transactions on Medical Imaging</h3>
