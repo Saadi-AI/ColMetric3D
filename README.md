@@ -1,6 +1,6 @@
 <p align="center">
   <h2 align="center">ColMetric3D: Scale-Consistent Monocular Colonoscopy 3D Reconstruction via Metric-Scale Expert Calibration</h2>
-  <h3 align="center">IEEE Transactions on Medical Imaging</h3>
+  <h3 align="center">Submitted in IEEE Transactions on Medical Imaging</h3>
   <h3 align="center">
     <a href="PAPER_LINK">Paper</a> |
     <a href="PROJECT_PAGE_LINK">Project Page</a> |
