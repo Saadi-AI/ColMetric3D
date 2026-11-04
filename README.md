@@ -14,11 +14,6 @@
   </p>
 </p>
 
----
-
-This official code for **ColMetric3D**, a scale-consistent framework for native metric depth estimation, relative pose recovery, and 3D reconstruction in monocular colonoscopy will be release  here.
----
-
 ## TODO
 
 - [ ] Release evaluation code
