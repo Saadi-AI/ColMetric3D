@@ -1,9 +1,6 @@
 <p align="center">
   <h2 align="center">ColMetric3D: Scale-Consistent Monocular Colonoscopy 3D Reconstruction via Metric-Scale Expert Calibration</h2>
   <h3 align="center">
-    <a href="PAPER_LINK">Paper</a> |
-    <a href="PROJECT_PAGE_LINK">Project Page</a> |
-    <a href="CHECKPOINT_LINK">Pretrained Models</a>
   </h3>
 
   <p align="center">
@@ -21,7 +18,7 @@
 
 This repository contains the official evaluation and inference code for **ColMetric3D**, a scale-consistent framework for native metric depth estimation, relative pose recovery, and 3D reconstruction in monocular colonoscopy.
 
-ColMetric3D adapts a **Depth Anything V2** foundation backbone using **latent-aware singular-vector fine-tuning (LA-SVFT)**, refines local colonoscopic depth structure with **Local Depth Distribution Refinement (LDDR)**, and performs spatially varying native metric calibration using **Metric-Scale Expert Calibration (MSEC)**. The framework predicts native metric depth under known camera intrinsics and uses metric-depth-conditioned pose estimation for monocular colonoscopy 3D reconstruction.
+ColMetric3D adapts a **Depth Anything V2** foundation backbone using **latent-aware singular-vector fine-tuning (CrG-LoRA)**, refines local colonoscopic depth structure with **Local Depth Distribution Refinement (LDDR)**, and performs spatially varying native metric calibration using **Metric-Scale Expert Calibration (MSEC)**. The framework predicts native metric depth under known camera intrinsics and uses metric-depth-conditioned pose estimation for monocular colonoscopy 3D reconstruction.
 
 > **Note:** This release provides evaluation and inference code with pretrained weights. Training code is not included in the initial release.
 
