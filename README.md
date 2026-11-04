@@ -32,26 +32,11 @@ ColMetric3D adapts a **Depth Anything V2** foundation backbone using **latent-aw
 - [ ] Release project page
 
 ---
-
-## Overview
-
-ColMetric3D consists of two main components:
-
-1. **DepthNet**: predicts native metric depth from a monocular colonoscopy frame using DAv2 + LA-SVFT, LDDR, and MSEC.
-2. **PoseNet**: estimates relative camera motion from RGB frame pairs conditioned on predicted metric depth, camera intrinsics, and a reliability mask.
-
-The predicted metric depths and relative poses are integrated by back-projection and pose accumulation to obtain sequence-level 3D reconstruction.
-
 <p align="center">
   <img src="assets/overview.png" width="95%">
 </p>
-
 ---
 
 ## Repository Structure
 We are cleaning the code for release.
-## Acknowledgements
 
-This project builds upon recent advances in monocular depth estimation, foundation-model adaptation, and endoscopic 3D reconstruction. We thank the authors of C3VD, SimCol3D, Depth Anything V2, Metric3D, EndoDAC, Endo-FASt3R, and Endo3R for making their datasets, models, or code available to the research community.
-
----
